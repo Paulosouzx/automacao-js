@@ -11,7 +11,7 @@ async function example(){
     await driver.get("https://herziopinto.github.io/lista-de-tarefas/")
 
     //Dar uma pausa na execucao da funcao
-    await driver.sleep(1000)
+    await driver.sleep(2000)
     
     //Digitar a nova tarefa e enter
 
