@@ -18,7 +18,7 @@ async function example(){
     let itens = ("Aprender automacao com selenium")
 
     //Item 1
-    await driver.findElement(By.id("inputTask")).sendKeys(itens[0], Key.RETURN)
+    await driver.findElement(By.id("inputTask")).sendKeys(itens, Key.RETURN)
 
     //Assertion
     let seleniumText = await driver.findElement(By.xpath("/html/body/div/section/ul/li/label")).getText().then(function(value){
